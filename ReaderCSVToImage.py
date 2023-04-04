@@ -1,7 +1,7 @@
 import csv
 
 from matplotlib import pyplot as plt
-subdir = 'threemau_multidim_cross'
+subdir = 'kth_channel_128'
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
 result_reader = csv.reader(result_file)  # 读取csv文件
@@ -19,7 +19,8 @@ psnrList = list()
 ssimList = list()
 lpipsList = list()
 
-for i in range(0, length_row):  # 从第二行开始读取
+for i in range(0, length_row):
+    print(i)# 从第二行开始读取
     itrList.append(int(result_data[i][0]))  # 将第一列数据从第二行读取到最后一行赋给列表x
     mseList.append(float("{:.3f}".format(float(result_data[i][1]))))
     maeList.append(float("{:.3f}".format(float(result_data[i][2]))))
