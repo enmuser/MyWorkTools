@@ -1,10 +1,11 @@
 import csv
 
 from matplotlib import pyplot as plt
-subdir = 'kth_channel_128'
-#subdir = 'threemau_multidim_cross'
-#subdir = 'mulmul_o_3x7'
+#subdir = 'kth_channel_128'
 #subdir = 'kth128'
+subdir = 'threemau_multidim_cross'
+#subdir = 'mulmul_o_3x7'
+
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
 result_reader = csv.reader(result_file)  # 读取csv文件
