@@ -3,10 +3,10 @@ import csv
 from matplotlib import pyplot as plt
 #subdir = 'kth_channel_128'
 #subdir = 'kth128'
-subdir = 'threemau_multidim_cross'
+#subdir = 'threemau_multidim_cross'
 #subdir = 'mulmul_o_3x7'
 #subdir = 'threemau_multidim_cache_cross'
-#subdir = 'threemau_multidim_cache_cross_mul'
+subdir = 'threemau_multidim_cache_cross_mul'
 
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
