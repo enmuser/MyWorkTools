@@ -50,7 +50,7 @@ plt.title("ssim")
 plt.subplot(5, 1, 5)
 plt.plot(itrList, lpipsList, color='aquamarine')
 plt.title("lpips")
-plt.savefig("plot/images/"+subdir+"/allresult.png")
+plt.savefig("plot/images/"+subdir+"/allresult.svg", format="svg", dpi=3600)
 
 plt.close()
 
@@ -58,7 +58,7 @@ plt.plot(itrList, mseList,color='deepskyblue')
 plt.title("mse")
 for a,b in zip(itrList,mseList):
     plt.text(a, b, '%.2f' % b, ha='center', va= 'bottom',fontsize=7)
-plt.savefig("plot/images/"+subdir+"/mseresult.png")
+plt.savefig("plot/images/"+subdir+"/mseresult.svg", format="svg", dpi=3600)
 
 plt.close()
 
@@ -66,7 +66,7 @@ plt.plot(itrList, maeList, color='orange')
 plt.title("mae")
 for a,b in zip(itrList,maeList):
     plt.text(a, b, '%.2f' % b, ha='center', va= 'bottom',fontsize=7)
-plt.savefig("plot/images/"+subdir+"/maeresult.png")
+plt.savefig("plot/images/"+subdir+"/maeresult.svg", format="svg", dpi=3600)
 
 plt.close()
 
@@ -74,7 +74,7 @@ plt.plot(itrList, psnrList, color='green')
 plt.title("psnr")
 for a,b in zip(itrList, psnrList):
     plt.text(a, b, '%.2f' % b, ha='center', va= 'bottom',fontsize=7)
-plt.savefig("plot/images/"+subdir+"/psnrresult.png")
+plt.savefig("plot/images/"+subdir+"/psnrresult.svg", format="svg", dpi=3600)
 
 plt.close()
 
@@ -82,14 +82,14 @@ plt.plot(itrList, ssimList, color='red')
 plt.title("ssim")
 for a,b in zip(itrList, ssimList):
     plt.text(a, b, '%.3f' % b, ha='center', va= 'bottom',fontsize=7)
-plt.savefig("plot/images/"+subdir+"/ssimresult.png")
+plt.savefig("plot/images/"+subdir+"/ssimresult.svg", format="svg", dpi=3600)
 
 plt.close()
 
 plt.plot(itrList, lpipsList, color='aquamarine')
 plt.title("lpips")
 for a,b in zip(itrList, lpipsList):
-    plt.text(a, b, '%.2f' % b, ha='center', va= 'bottom',fontsize=7)
-plt.savefig("plot/images/"+subdir+"/lpipsresult.png")
+    plt.text(a, b, '%.3f' % b, ha='center', va= 'bottom',fontsize=7)
+plt.savefig("plot/images/"+subdir+"/lpipsresult.svg", format="svg", dpi=3600)
 
 plt.close()
