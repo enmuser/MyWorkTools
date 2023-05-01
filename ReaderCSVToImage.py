@@ -8,11 +8,12 @@ from matplotlib import pyplot as plt
 #subdir = 'threemau_multidim_cache_cross'
 #subdir = 'threemau_multidim_cache_cross_mul'
 
-#subdir = 'kth128_40'
+subdir = 'kth128_40'
 #subdir = 'kth_channel_128_40'
 #subdir = 'ped_channel_cross'
-subdir = 'ped_channel'
+#subdir = 'ped_channel'
 #subdir = 'taxibj_channel_fuse'
+#subdir = 'ped_channel_val_random'
 
 
 file = "plot/images/"+subdir+"/result.csv"
