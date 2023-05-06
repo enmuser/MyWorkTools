@@ -13,11 +13,11 @@ from matplotlib import pyplot as plt
 #subdir = 'ped_channel_cross'
 #subdir = 'ped_channel'
 #subdir = 'taxibj_channel_fuse'
-#subdir = 'ped_channel_val_random'
+subdir = 'ped_channel_val_random'
 #subdir = 'taxibj_channel_fuse_2'
 #subdir = 'taxibj_channel_fuse_2_1'
 #subdir = 'taxibj_channel_fuse_1'
-subdir = 'synpick_channel'
+#subdir = 'synpick_channel'
 
 
 file = "plot/images/"+subdir+"/result.csv"
