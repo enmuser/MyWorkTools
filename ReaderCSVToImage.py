@@ -18,7 +18,7 @@ subdir = 'ped_channel_val_random'
 #subdir = 'taxibj_channel_fuse_2_1'
 #subdir = 'taxibj_channel_fuse_1'
 #subdir = 'synpick_channel'
-
+#subdir = 'taxibj_channel_fuse_1_1'
 
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
