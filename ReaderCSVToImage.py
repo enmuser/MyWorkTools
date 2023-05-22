@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 #subdir = 'ped_channel_cross'
 #subdir = 'ped_channel'
 #subdir = 'taxibj_channel_fuse'
-subdir = 'ped_channel_val_random'
+#subdir = 'ped_channel_val_random'
 #subdir = 'taxibj_channel_fuse_2'
 #subdir = 'taxibj_channel_fuse_2_1'
 #subdir = 'taxibj_channel_fuse_1'
@@ -21,6 +21,8 @@ subdir = 'ped_channel_val_random'
 #subdir = 'taxibj_channel_fuse_1_1'
 #subdir = 'taxibj_spacenet2'
 #subdir = 'taxibj_cross'
+subdir = 'kitti_channel'
+#subdir = 'spacenet2_cross'
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
 result_reader = csv.reader(result_file)  # 读取csv文件
