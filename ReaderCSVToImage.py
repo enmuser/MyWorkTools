@@ -23,6 +23,8 @@ from matplotlib import pyplot as plt
 #subdir = 'taxibj_cross'
 subdir = 'kitti_channel'
 #subdir = 'spacenet2_cross'
+#subdir = 'threemau_multidim_cross2'
+#subdir = 'synpick_channel2'
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
 result_reader = csv.reader(result_file)  # 读取csv文件
