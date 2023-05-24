@@ -24,6 +24,8 @@ from matplotlib import pyplot as plt
 subdir = 'kitti_channel'
 #subdir = 'spacenet2_cross'
 #subdir = 'threemau_multidim_cross2'
+#subdir = 'threemau_multidim_cross2_KL_5000'
+#subdir = 'threemau_multidim_cross2_KL_10000'
 #subdir = 'synpick_channel2'
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
