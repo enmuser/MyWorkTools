@@ -22,7 +22,7 @@ from matplotlib import pyplot as plt
 #subdir = 'taxibj_spacenet2'
 #subdir = 'taxibj_cross'
 #subdir = 'kitti_channel'
-#subdir = 'spacenet2_cross'
+subdir = 'spacenet2_cross'
 #subdir = 'threemau_multidim_cross2'
 #subdir = 'threemau_multidim_cross2_KL_5000'
 #subdir = 'threemau_multidim_cross2_KL_10000'
@@ -31,7 +31,10 @@ from matplotlib import pyplot as plt
 #subdir = 'threemau_multidim_cross2_KL_UW'
 #subdir = 'threemau_multidim_cross2_KL_UW_Origin'
 #subdir = 'threemau_multidim_cross2_KL_20000'
-subdir = 'compare_cross_MSE_UW'
+#subdir = 'compare_cross_MSE_UW'
+#subdir = 'spacenet2_mau'
+#subdir = 'kitti_channel_new'
+#subdir = 'ped_channel_new'
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
 result_reader = csv.reader(result_file)  # 读取csv文件
@@ -41,7 +44,7 @@ length_col = len(result_data[0])  # 得到每行长度
 
 # for i in range(1,length_zu):
 #     print(exampleData[i])
-flag = False
+flag = True
 itrList = list()
 mseList = list()
 maeList = list()
