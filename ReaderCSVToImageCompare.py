@@ -31,7 +31,8 @@ from matplotlib import pyplot as plt
 #subdir = 'threemau_multidim_cross2_KL_UW'
 #subdir = 'threemau_multidim_cross2_KL_UW_Origin'
 #subdir = 'threemau_multidim_cross2_KL_20000'
-subdir = 'compare_cross_MSE_UW'
+#subdir = 'compare_cross_MSE_UW'
+subdir = 'synpick_channel_new'
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
 result_reader = csv.reader(result_file)  # 读取csv文件

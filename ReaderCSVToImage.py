@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 #subdir = 'threemau_multidim_cache_cross_mul'
 
 #subdir = 'kth128_40'
-#subdir = 'kth_channel_128_40'
+subdir = 'kth_channel_128_40'
 #subdir = 'ped_channel_cross'
 #subdir = 'ped_channel'
 #subdir = 'taxibj_channel_fuse'
@@ -22,7 +22,7 @@ from matplotlib import pyplot as plt
 #subdir = 'taxibj_spacenet2'
 #subdir = 'taxibj_cross'
 #subdir = 'kitti_channel'
-subdir = 'spacenet2_cross'
+#subdir = 'spacenet2_cross'
 #subdir = 'threemau_multidim_cross2'
 #subdir = 'threemau_multidim_cross2_KL_5000'
 #subdir = 'threemau_multidim_cross2_KL_10000'
@@ -35,6 +35,7 @@ subdir = 'spacenet2_cross'
 #subdir = 'spacenet2_mau'
 #subdir = 'kitti_channel_new'
 #subdir = 'ped_channel_new'
+#subdir = 'synpick_channel_new'
 file = "plot/images/"+subdir+"/result.csv"
 result_file = open(file)  # 打开csv文件
 result_reader = csv.reader(result_file)  # 读取csv文件
